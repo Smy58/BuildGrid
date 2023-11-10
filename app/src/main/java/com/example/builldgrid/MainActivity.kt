@@ -4,12 +4,14 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.builldgrid.model.Topic
 import com.example.builldgrid.ui.theme.BuilldGridTheme
 
 class MainActivity : ComponentActivity() {
@@ -39,7 +41,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun TopicCard(topic: Topic, modifier: Modifier) {
+    Card{
 
+    }
 }
 
 @Preview(showBackground = true)
